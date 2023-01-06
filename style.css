@@ -14,14 +14,16 @@ header{
 .header-container{
     padding: 175px 310px;
     text-align: center;
-    color: #FFFFFF;
+    
 }
 .header-title{
+    color: #FFFFFF;
     font-size: 65px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 .description{
+    color: #DCDCDC;
     font-size: 16px;
     font-weight: 100;
     padding-bottom: 30px;
@@ -38,7 +40,7 @@ header{
 /* donation styles */
 
 .donate-today{
-    padding: 132px 338px;
+    margin: 135px auto;
     text-align: center;
 }
 .section-title{
@@ -76,8 +78,43 @@ header{
     color: #B3B3B3;
 }
 hr{
-    margin-bottom: 30px;
+    width: 50%;
+    margin: 0 auto 30px;
 }
 
 /* donate plan styles */
 
+.donate-plan{
+    margin: 130px auto;
+    text-align: center;
+}
+.donate-plan .description{
+    color: #707070;
+    margin: 20px auto;
+}
+.plan-container{
+    margin: 0 350px;
+    display: flex;
+    gap: 25px;
+    text-align: left;
+}
+.plan{
+    padding: 54px 24px;
+    border-radius: 5px;
+}
+.plan-title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.donate-plan .plan-description{
+    padding: 0;
+}
+.plan1{
+    background: rgba(79, 157, 166, 0.1);
+}
+.plan2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.plan3{
+ background: #FFFFE0;
+}

@@ -1,32 +1,32 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* header styles */
 
 header{
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('images/donation13.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./images/donation2.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-blend-mode: multiply;
 }
 .header-container{
-    padding: 175px 310px;
+    padding: 250px 310px;
     text-align: center;
     
 }
 .header-title{
     color: #FFFFFF;
-    font-size: 65px;
-    font-weight: 700;
+    font-size: 90px;
+    font-weight: bolder;
     padding-bottom: 20px;
 }
 .description{
     color: #DCDCDC;
     font-size: 16px;
     font-weight: 100;
-    padding-bottom: 30px;
+    padding: 0 220px 30px;
 }
 .button-primary{
     font-size: 18px;
@@ -103,8 +103,7 @@ hr{
     border-radius: 5px;
 }
 .plan-title{
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding: 32px 0 16px;
 }
 .donate-plan .plan-description{
     padding: 0;
@@ -116,5 +115,63 @@ hr{
     background: rgba(255, 89, 89, 0.1);
 }
 .plan3{
- background: #FFFFE0;
+    background: #FFFFE0;
 }
+
+/* contribution styles */
+
+.contribution{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 0 252px 130px 156px;
+}
+.contribution-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+.contribution-container img{
+    width: 700px;
+    height: 650px;
+    border-radius: 5px;
+}
+.contribution-description{
+    padding-bottom: 20px;
+}
+
+/* my updates section */
+
+.get-my-updates{
+    text-align: center;
+    padding-bottom: 130px;
+}
+.updates-description{
+    margin-bottom: 50px;
+}
+.get-my-updates input{
+    color: #AA9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px 150px 14px 17px;
+}
+.subscribe{
+    background: #FFFFE0;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 76px 190px;
+    margin: 0 360px;
+}
+.subscribe .button-primary{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+    padding: 14px 42px;
+}
+
+/* footer styles */

@@ -7,7 +7,7 @@
 /* header styles */
 
 header{
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./images/donation2.jpg');
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('./images/donation13.jpg');
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -175,3 +175,25 @@ hr{
 }
 
 /* footer styles */
+footer{
+    text-align: center;
+    background: #0B0D17;
+}
+.footer-title{
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 43px 0 24px;
+    font-family: 'Lobster';
+    letter-spacing: 0.5px;
+}
+.footer-sub-title{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 42px;
+}
+.footer{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
